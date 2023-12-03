@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiyas Pilipinas Database</title>
+    <style>
+         body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px; /* Adjust padding for spacing */
+        }
+
+        #backButton {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px;
+            background-color: #d334db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 10px; /* Adjust margin for spacing between images */
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <button id="backButton" onclick="goBack()">Back</button><br>
+    <img id="image" src="HPD/login.png">
+    <img id="image" src="HPD/mainmenu.png">
+    <img id="image" src="HPD/admin.png">
+    <img id="image" src="HPD/customer.png">
+    <img id="image" src="HPD/employee.png">
+    <img id="image" src="HPD/transaction.png">
+    <img id="image" src="HPD/product.png">
+    <img id="image" src="HPD/loan.png">
+    <img id="image" src="HPD/report.png">
+    <img id="image" src="HPD/adminreport.png">
+    <img id="image" src="HPD/custreport.png">
+    <img id="image" src="HPD/empreport.png">
+    <img id="image" src="HPD/loanreport.png">
+    <img id="image" src="HPD/transactreport.png">
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>
